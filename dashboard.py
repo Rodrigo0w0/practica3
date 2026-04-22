@@ -120,3 +120,4 @@ else:
         .sort_values(by=["game_date"], ascending=False)
         .head(50),
         use_container_width=True
+    )
