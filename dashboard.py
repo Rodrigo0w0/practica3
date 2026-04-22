@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="NBA Dashboard", layout="wide")
 
 @st.cache_data
-def load_data(path="data/nba_all_elo.csv"):
+def load_data(path="nba_all_elo.csv"):
     df = pd.read_csv(path, dtype=str)  
     
     rename_map = {
